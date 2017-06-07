@@ -1,15 +1,15 @@
 {
-    "Please Wait ...":                  "Please Wait ...",
-    "Alert":                            "Alert",
-    "Confirm":                          "Confirm",
-    "Operations":                       "Operations",
+    "Please Wait ...":                  "Thank you for waiting ...",
+    "Alert":                            "Notify",
+    "Confirm":                          "Accept",
+    "Operations":                       "Functions",
     "Report":                           "Report",
-    "Thanks For Your Report":           "Thanks For Your Report",
-    "Waiting":                              "Waiting",
+    "Thanks For Your Report":           "Your Report will be reviewed.",
+    "Waiting":                              "Processing ",
     "Waiting For Upload Images Or Video":   "Waiting For Upload Images Or Video",
 
-    "Create":                       "Create",
-    "Destory":                      "Destory",
+    "Create":                       "Make",
+    "Destory":                      "Destroy",
     "Destructive":                  "Destructive",
     "Cancel":                       "Cancel",
     "Close":                        "Close",
@@ -19,70 +19,70 @@
 
 
 
-    "Park":                         "Park",
+    "Park":                         "Ayoo",
     "Novelty":                      "Novelty",
-    "Likes":                        "Likes",
-    "Comments":                     "Comments",
-    "A Comment":                    "A Comment",
-    "Say Something ...":            "Say Something ...",
-    "Say Something To ...":         "Say Something To {{ user }} ...",
-    "Whats New ...":                "Whats New ...",
-    "Send":                         "Send",
+    "Likes":                        "Upvotes",
+    "Comments":                     "Reactions",
+    "A Comment":                    "Comment",
+    "Say Something ...":            "Promote Something ...",
+    "Say Something To ...":         "Add a comment to {{ user }} ...",
+    "Whats New ...":                "Wazzup?? ...",
+    "Send":                         "Post",
 
 
 
 
 
     "Mine":                         "Mine",
-    "Notices":                      "Notices",
-    "My Park Activity":             "My Park Activity",
+    "Notices":                      "Notifs",
+    "My Park Activity":             "Ayoo Activities",
     "Settings":                     "Settings",
     "Language":                     "Language",
     "Clear Cache":                  "Clear Cache",
-    "About":                        "About",
+    "About":                        "About the Ayoo App",
     "Profile":                      "Profile",
     "Update Profile":               "Update Profile",
-    "Avatar":                       "Avatar",
+    "Avatar":                       "Profile Pic",
     "Update Avatar":                "Update Avatar",
-    "ID":                           "ID",
+    "ID":                           "AyooID",
     "Gender":                       "Gender",
     "Male":                         "Male",
     "Female":                       "Female",
-    "Bio":                          "Bio",
+    "Bio":                          "Describe yourself.",
 
 
 
 
 
-    "User":                         "User",
+    "User":                         "Your Profile",
     "Sign Up":                      "Sign Up",
-    "Log In":                       "Log In",
-    "Log Out":                      "Log Out",
+    "Log In":                       "Sign In",
+    "Log Out":                      "Sign Out",
     "Nickname":                     "Nickname",
     "Phone":                        "Phone",
-    "Password":                     "Password",
+    "Password":                     "Password"
     "Forget Password?":             "Forget Password?",
     "WeChat To Log In":             "WeChat To Log In",
 
 
-    "Welcome back":                 "Welcome back",
-    "Log In Failed":                "Log In Failed",
-    "Sign Up Success, Welcome ":    "Sign Up Success, Welcome ",
-    "SignUp Failed":                "SignUp Failed",
+    "Welcome back":                 "Welcome",
+    "Log In Failed":                "Sign In Failed",
+    "Sign Up Success, Welcome ":    "Successful Sign Up",
+    "SignUp Failed":                "Sign Up Failed",
 
 
 
 
 
-    "Me":                           "Me",
-    "Hey Guys":                     "Hey Guys",
-    "Let's Login Now":              "Let's Login Now",
-    "Lets Login Now":               "Let's Login Now",
+    "Me":                           "Personal",
+    "Hey Guys":                     "Yo!",
+    "Let's Login Now":              "Log In",
+    "Lets Login Now":               "Log In",
     "Check All":                    "Check All",
     "Remove All":                   "Remove All",
-    "Click On Select New Avatar":   "Click On Select New Avatar",
+    "Click On Select New Avatar":   "Change Profile Pix",
 
-    "You Did Not Have Notices":     "You Did Not Have Notices",
+    "You Did Not Have Notices":     "No Notifs",
     "Like Your Timeline":           "Like ❤️",
 
 
@@ -93,7 +93,6 @@
     "TopicModule": {
       "Hot":                    "Hot",
       "New":                    "New",
-
       "Comments":               "Comments",
       "All":                    "All",
       "Topic Nodes":            "Topic Nodes",
@@ -108,5 +107,5 @@
 
 
 
-    "HeyCommunity":                 "HeyCommunity"
+    "HeyCommunity":                 "Ayoo"
 }

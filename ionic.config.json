@@ -1,16 +1,15 @@
 {
-  "name": "HeyCommunity",
+  "name": "Ayoo",
   "app_id": "95e8d391",
-  "v2": true,
-  "typescript": true,
   "proxies": [
     {
       "path": "/api",
-      "proxyUrl": "http://demo.hey-community.com/api"
+      "proxyUrl": "http://backend.ayoo.club/api"
     },
     {
       "path": "/uploads",
-      "proxyUrl": "http://demo.hey-community.com/uploads"
+      "proxyUrl": "http://backend.ayoo.club/uploads"
     }
-  ]
+  ],
+  "type": "ionic-angular"
 }

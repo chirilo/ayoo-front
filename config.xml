@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.heycommunity.v3" version="3.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>HeyCommunityV3</name>
+<widget id="club.ayoo.v3" version="3.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>AyooCommunity</name>
     <description>WebApp / IOS App / Android App of Community</description>
-    <author email="supgeek.rod@gmail.com" href="http://www.hey-community.com/">Rod</author>
+    <author email="chithewebdeveloper@gmail.com" href="http://ayoo.club">iamch1r1ru</author>
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
@@ -112,4 +112,5 @@
         <variable name="WECHATAPPID" value="wx984e306ab0a8e762" />
     </plugin>
     <plugin name="cordova-sqlite-storage" spec="~2.0.3" />
+    <engine name="android" spec="~6.2.3" />
 </widget>

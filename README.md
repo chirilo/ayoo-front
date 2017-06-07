@@ -1,12 +1,12 @@
-HeyCommunity V3
+AyooCommunity V3
 =======================
 
-[HeyCommunity](https://github.com/dev4living/HeyCommunity) is an open source social software for iOS / Android / Windows Phone and other mobile phone operating system
+[AyooCommunity](https://github.com/chirilo/HeyCommunity) is an open source social software for iOS / Android / Windows Phone and other mobile phone operating system
 
-Official website: http://www.hey-community.cn   
-Online Demo: http://demo.hey-community.cn
+Official website: http://ayoo.club
+Online Demo: http://demo.ayoo.club
 
 
 ## License
 
-The HeyCommunity is open-sourced software licensed under the [GPLv3](LICENSE.txt)
+The AyooCommunity is open-sourced software licensed under the [GPLv3](LICENSE.txt)
