@@ -1,122 +1,124 @@
 {
-  "name": "AyooCommunity",
-  "description": "WebApp & IOS App & Android App of Community",
-  "author": "iamch1r1ru",
-  "homepage": "http://ayoo.club",
-  "private": true,
-  "scripts": {
-    "clean": "ionic-app-scripts clean",
-    "build": "ionic-app-scripts build",
-    "ionic:build": "ionic-app-scripts build",
-    "ionic:serve": "ionic-app-scripts serve"
-  },
-  "dependencies": {
-    "@angular/common": "4.0.2",
-    "@angular/compiler": "4.0.2",
-    "@angular/compiler-cli": "4.0.2",
-    "@angular/core": "4.0.2",
-    "@angular/forms": "4.0.2",
-    "@angular/http": "4.0.2",
-    "@angular/platform-browser": "4.0.2",
-    "@angular/platform-browser-dynamic": "4.0.2",
-    "@ionic-native/badge": "^3.6.1",
-    "@ionic-native/camera": "^3.6.1",
-    "@ionic-native/core": "3.6.0",
-    "@ionic-native/image-picker": "^3.6.1",
-    "@ionic-native/in-app-browser": "^3.6.1",
-    "@ionic-native/splash-screen": "3.4.2",
-    "@ionic-native/status-bar": "3.4.2",
-    "@ionic-native/transfer": "^3.6.1",
-    "@ionic/storage": "2.0.1",
-    "com.synconset.imagepicker": "https://github.com/Telerik-Verified-Plugins/ImagePicker",
-    "cordova-android": "^6.2.3",
-    "cordova-plugin-app-event": "^1.2.0",
-    "cordova-plugin-badge": "^0.7.4",
-    "cordova-plugin-camera": "^2.3.1",
-    "cordova-plugin-compat": "^1.1.0",
-    "cordova-plugin-console": "^1.0.5",
-    "cordova-plugin-crosswalk-webview": "^2.3.0",
-    "cordova-plugin-device": "^1.1.4",
-    "cordova-plugin-file": "^4.3.3",
-    "cordova-plugin-file-transfer": "^1.6.3",
-    "cordova-plugin-inappbrowser": "^1.6.1",
-    "cordova-plugin-ios-microphone-permissions": "git+https://github.com/supgeek-rod/cordova-plugin-ios-microphone-permissions.git",
-    "cordova-plugin-splashscreen": "^4.0.3",
-    "cordova-plugin-statusbar": "^2.2.1",
-    "cordova-plugin-wechat": "^1.4.0",
-    "cordova-plugin-whitelist": "^1.3.1",
-    "cordova-sqlite-storage": "^2.0.4",
-    "ionic-angular": "3.1.1",
-    "ionic-plugin-keyboard": "^2.2.1",
-    "ionicons": "3.0.0",
-    "jpush-phonegap-plugin": "^3.0.3",
-    "moment": "^2.15.1",
-    "ng2-translate": "^5.0.0",
-    "rxjs": "5.1.1",
-    "sw-toolbox": "3.4.0",
-    "zone.js": "^0.8.5"
-  },
-  "devDependencies": {
-    "@ionic/app-scripts": "1.3.6",
-    "@ionic/cli-plugin-cordova": "^1.3.0",
-    "@ionic/cli-plugin-ionic-angular": "^1.3.0",
-    "typescript": "~2.2.1"
-  },
-  "cordovaPlugins": [
-    "ionic-plugin-keyboard",
-    "cordova-plugin-whitelist",
-    "cordova-plugin-statusbar",
-    "cordova-plugin-console",
-    "cordova-plugin-device",
-    "cordova-plugin-splashscreen",
-    "cordova-plugin-badge",
-    "cordova-plugin-camera",
-    "cordova-plugin-inappbrowser",
-    "cordova-plugin-file-transfer",
-    "cordova-plugin-ios-microphone-permissions",
-    "cordova-sqlite-storage",
-    "jpush-phonegap-plugin"
-  ],
-  "cordovaPlatforms": [
-    "android@6.1.0",
-    "ios@4.3.1"
-  ],
-  "cordova": {
-    "plugins": {
-      "com.synconset.imagepicker": {},
-      "cordova-plugin-badge": {},
-      "cordova-plugin-camera": {
-        "CAMERA_USAGE_DESCRIPTION": "This app needs camera access",
-        "PHOTOLIBRARY_USAGE_DESCRIPTION": "This app needs photo library access"
-      },
-      "cordova-plugin-console": {},
-      "cordova-plugin-crosswalk-webview": {
-        "XWALK_VERSION": "23+",
-        "XWALK_LITEVERSION": "xwalk_core_library_canary:17+",
-        "XWALK_COMMANDLINE": "--disable-pull-to-refresh-effect",
-        "XWALK_MODE": "embedded",
-        "XWALK_MULTIPLEAPK": "true"
-      },
-      "cordova-plugin-device": {},
-      "cordova-plugin-file-transfer": {},
-      "cordova-plugin-inappbrowser": {},
-      "cordova-plugin-ios-microphone-permissions": {
-        "MICROPHONE_USAGE_DESCRIPTION": "This app needs microphone access"
-      },
-      "cordova-plugin-splashscreen": {},
-      "cordova-plugin-statusbar": {},
-      "cordova-plugin-wechat": {
-        "WECHATAPPID": "wx984e306ab0a8e762"
-      },
-      "cordova-plugin-whitelist": {},
-      "cordova-sqlite-storage": {},
-      "ionic-plugin-keyboard": {},
-      "jpush-phonegap-plugin": {
-        "APP_KEY": "836338d89b6fb9dfd11140a8"
-      }
+    "name": "AyooCommunity",
+    "description": "WebApp & IOS App & Android App of Community",
+    "author": "iamch1r1ru",
+    "homepage": "http://ayoo.club",
+    "private": true,
+    "scripts": {
+        "clean": "ionic-app-scripts clean",
+        "build": "ionic-app-scripts build",
+        "ionic:build": "ionic-app-scripts build",
+        "ionic:serve": "ionic-app-scripts serve"
     },
-    "platforms": [
-      "android"
-    ]
-  }
+    "dependencies": {
+        "@angular/common": "4.0.2",
+        "@angular/compiler": "4.0.2",
+        "@angular/compiler-cli": "4.0.2",
+        "@angular/core": "4.0.2",
+        "@angular/forms": "4.0.2",
+        "@angular/http": "4.0.2",
+        "@angular/platform-browser": "4.0.2",
+        "@angular/platform-browser-dynamic": "4.0.2",
+        "@ionic-native/badge": "^3.6.1",
+        "@ionic-native/camera": "^3.6.1",
+        "@ionic-native/core": "3.6.0",
+        "@ionic-native/image-picker": "^3.6.1",
+        "@ionic-native/in-app-browser": "^3.6.1",
+        "@ionic-native/splash-screen": "3.4.2",
+        "@ionic-native/status-bar": "3.4.2",
+        "@ionic-native/transfer": "^3.6.1",
+        "@ionic/storage": "2.0.1",
+        "com.synconset.imagepicker": "https://github.com/Telerik-Verified-Plugins/ImagePicker",
+        "cordova-android": "^6.2.3",
+        "cordova-plugin-app-event": "^1.2.0",
+        "cordova-plugin-badge": "^0.7.4",
+        "cordova-plugin-camera": "^2.4.1",
+        "cordova-plugin-compat": "^1.1.0",
+        "cordova-plugin-console": "^1.0.7",
+        "cordova-plugin-crosswalk-webview": "^2.3.0",
+        "cordova-plugin-device": "^1.1.6",
+        "cordova-plugin-file": "^4.3.3",
+        "cordova-plugin-file-transfer": "^1.6.3",
+        "cordova-plugin-inappbrowser": "^1.7.1",
+        "cordova-plugin-ios-microphone-permissions": "git+https://github.com/supgeek-rod/cordova-plugin-ios-microphone-permissions.git",
+        "cordova-plugin-jcore": "file:node_modules/cordova-plugin-jcore",
+        "cordova-plugin-splashscreen": "^4.0.3",
+        "cordova-plugin-statusbar": "^2.2.3",
+        "cordova-plugin-telerik-imagepicker": "git+https://github.com/Telerik-Verified-Plugins/ImagePicker.git",
+        "cordova-plugin-wechat": "^1.4.0",
+        "cordova-plugin-whitelist": "^1.3.2",
+        "cordova-sqlite-storage": "^2.0.4",
+        "ionic-angular": "3.1.1",
+        "ionic-plugin-keyboard": "^2.2.1",
+        "ionicons": "3.0.0",
+        "jpush-phonegap-plugin": "^3.1.7",
+        "moment": "^2.15.1",
+        "ng2-translate": "^5.0.0",
+        "rxjs": "5.1.1",
+        "sw-toolbox": "3.4.0",
+        "zone.js": "^0.8.5"
+    },
+    "devDependencies": {
+        "@ionic/app-scripts": "1.3.6",
+        "@ionic/cli-plugin-cordova": "^1.3.0",
+        "@ionic/cli-plugin-ionic-angular": "^1.3.0",
+        "typescript": "~2.2.1"
+    },
+    "cordovaPlugins": [
+        "ionic-plugin-keyboard",
+        "cordova-plugin-whitelist",
+        "cordova-plugin-statusbar",
+        "cordova-plugin-console",
+        "cordova-plugin-device",
+        "cordova-plugin-splashscreen",
+        "cordova-plugin-badge",
+        "cordova-plugin-camera",
+        "cordova-plugin-inappbrowser",
+        "cordova-plugin-file-transfer",
+        "cordova-plugin-ios-microphone-permissions",
+        "cordova-sqlite-storage",
+        "jpush-phonegap-plugin"
+    ],
+    "cordovaPlatforms": [
+        "android@6.1.0",
+        "ios@4.3.1"
+    ],
+    "cordova": {
+        "plugins": {
+            "com.synconset.imagepicker": {},
+            "cordova-plugin-badge": {},
+            "cordova-plugin-camera": {
+                "CAMERA_USAGE_DESCRIPTION": "This app needs camera access",
+                "PHOTOLIBRARY_USAGE_DESCRIPTION": "This app needs photo library access"
+            },
+            "cordova-plugin-console": {},
+            "cordova-plugin-crosswalk-webview": {
+                "XWALK_VERSION": "23+",
+                "XWALK_LITEVERSION": "xwalk_core_library_canary:17+",
+                "XWALK_COMMANDLINE": "--disable-pull-to-refresh-effect",
+                "XWALK_MODE": "embedded",
+                "XWALK_MULTIPLEAPK": "true"
+            },
+            "cordova-plugin-device": {},
+            "cordova-plugin-file-transfer": {},
+            "cordova-plugin-inappbrowser": {},
+            "cordova-plugin-ios-microphone-permissions": {
+                "MICROPHONE_USAGE_DESCRIPTION": "This app needs microphone access"
+            },
+            "cordova-plugin-splashscreen": {},
+            "cordova-plugin-statusbar": {},
+            "cordova-plugin-wechat": {
+                "WECHATAPPID": "wx984e306ab0a8e762"
+            },
+            "cordova-plugin-whitelist": {},
+            "cordova-sqlite-storage": {},
+            "ionic-plugin-keyboard": {},
+            "jpush-phonegap-plugin": {
+                "APP_KEY": "836338d89b6fb9dfd11140a8"
+            }
+        },
+        "platforms": [
+            "android"
+        ]
+    }
 }
