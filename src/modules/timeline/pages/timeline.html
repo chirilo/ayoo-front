@@ -10,6 +10,19 @@
       </button>
     </ion-buttons>
   </ion-navbar>
+  <ion-toolbar>
+    <ion-segment [(ngModel)]="icons" color="dark">
+      <ion-segment-button class="segment-activated" role="button" aria-pressed="true" value="paid">
+        Paid
+      </ion-segment-button>
+      <ion-segment-button value="free">
+        Free
+      </ion-segment-button>
+      <ion-segment-button value="top">
+        Top
+      </ion-segment-button>
+    </ion-segment>
+  </ion-toolbar>
 </ion-header>
 
 <ion-content>

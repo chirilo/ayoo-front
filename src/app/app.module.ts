@@ -29,7 +29,8 @@ import { TabsPage } from '../pages/tabs/tabs';
     BrowserModule,
     HttpModule,
     IonicModule.forRoot(MyApp, {
-      backButtonText: '',
+      backButtonText: 'Back',
+      iconMode: 'ios',
       tabsHideOnSubPages: true,
       tabbarPlacement: 'bottom',
       backButtonIcon: 'arrow-round-back',
