@@ -20,7 +20,7 @@ export class TimelinePage {
     public heyApp: AppService,
     public navCtrl: NavController,
   ) {
-    console.log('Hey Timeline ~');
+    console.log('You are on Timeline Page!');
 
     this.timelineService.getTimelinesFromStorage();
   }

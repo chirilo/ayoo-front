@@ -26,7 +26,7 @@ export class MyApp {
     public splashScreen: SplashScreen,
     public platform: Platform
   ) {
-    console.log('Hey Community V3');
+    console.log('Welcome to Ayoo Community');
 
     platform.ready().then(() => {
       // Okay, so the platform is ready and our plugins are available.

@@ -35,7 +35,7 @@
 
     "Mine":                         "Mine",
     "Notices":                      "Notifs",
-    "My Park Activity":             "Ayoo Activities",
+    "My Park Activity":             "Your AyooPosts",
     "Settings":                     "Settings",
     "Language":                     "Language",
     "Clear Cache":                  "Clear Cache",
@@ -95,11 +95,11 @@
       "New":                    "New",
       "Comments":               "Comments",
       "All":                    "All",
-      "Topic Nodes":            "Topic Nodes",
+      "Topic Nodes":            "SubTopics",
 
       "Title":                  "Title",
       "Node":                   "Node",
-      "Initiate A Topic":       "Initial A Topic",
+      "Initiate A Topic":       "Start A Topic",
       "Here, we sincerely exchange and share":          "Here, we sincerely exchange and share"
     },
 

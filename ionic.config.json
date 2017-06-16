@@ -4,11 +4,11 @@
   "proxies": [
     {
       "path": "/api",
-      "proxyUrl": "http://backend.ayoo.club/api"
+      "proxyUrl": "http://ayoo-backend.local/api"
     },
     {
       "path": "/uploads",
-      "proxyUrl": "http://backend.ayoo.club/uploads"
+      "proxyUrl": "http://ayoo-backend.local/uploads"
     }
   ],
   "type": "ionic-angular"

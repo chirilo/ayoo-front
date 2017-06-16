@@ -27,7 +27,7 @@ export class EnGb {
 
       //
       // my-topic page
-      "My Topic":                     "My Topic",
+      "My Topic":                     "My Posts",
     },
   }
 }

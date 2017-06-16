@@ -9,7 +9,7 @@
 
   <link rel="icon" type="image/x-icon" href="assets/icon/favicon.ico">
   <link rel="manifest" href="manifest.json">
-  <meta name="theme-color" content="#4e8ef7">
+  <meta name="theme-color" content="#B4FFE5">
 
   <!-- cordova.js required for cordova apps -->
   <script src="cordova.js"></script>
@@ -32,10 +32,23 @@
      *
      * window.API_DOMAIN is required in app mode (!important)
      */
-    window.API_DOMAIN     =   'http://demo.ayoo.club';
+    window.API_DOMAIN     =   '';
   </script>
+  <style type="text/css">
+    .gradient1 {
+      background-color: #F2DAFF;
+      /* For WebKit (Safari, Chrome, etc) */
+      background: #F2DAFF -webkit-gradient(linear, left top, left bottom, from(#B4FFE5), to(#F2DAFF)) no-repeat;
+      /* Mozilla,Firefox/Gecko */
+      background: #F2DAFF -moz-linear-gradient(top, #B4FFE5, #F2DAFF) no-repeat;
+      /* IE 5.5 - 7 */
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#B4FFE5, endColorstr=#F2DAFF) no-repeat;
+      /* IE 8 */
+      -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#B4FFE5, endColorstr=#B4FFE5)" no-repeat;
+    }
+  </style>
 </head>
-<body>
+<body class="gradient1">
   <!-- Ionic's root component and where the app will load -->
   <ion-app></ion-app>
 

@@ -2,9 +2,9 @@ export class EnGb {
   static translations = {
     //
     //
-    "HeyCommunity":                 "HeyCommunity",
+    "HeyCommunity":                 "AyooCommunity",
     "Topic":                        "Topic",
-    "Park":                         "Park",
+    "Park":                         "Timeline",
     "Me":                           "Me",
 
 
@@ -12,7 +12,7 @@ export class EnGb {
     //
     "Create":                       "Create",
     "Send":                         "Send",
-    "Destory":                      "Destory",
+    "Destory":                      "Destroy",
     "Destructive":                  "Destructive",
     "Cancel":                       "Cancel",
     "Close":                        "Close",
