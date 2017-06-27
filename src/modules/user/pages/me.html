@@ -33,6 +33,7 @@
           </button>
         </ion-buttons>
         -->
+
       </ion-col>
     </ion-row>
 
@@ -54,8 +55,22 @@
   </ion-grid>
 
   <ion-list>
+    <ion-toolbar class='toolbar toolbar-md gradient1'>
+      <ion-segment [(ngModel)]="icons" color="primary">
+        <ion-segment-button class="segment-activated" role="button" aria-pressed="true" value="paid">
+          Tab1
+        </ion-segment-button>
+        <ion-segment-button value="free">
+          Tab 2
+        </ion-segment-button>
+        <ion-segment-button value="top">
+          Tab 3
+        </ion-segment-button>
+      </ion-segment>
+    </ion-toolbar>
+    
     <ion-list-header>
-      {{ 'user.Mine' | translate }}
+      <!-- {{ 'user.Mine' | translate }} -->
     </ion-list-header>
 
     <button ion-item (click)="gotoMeProfilePage()">
