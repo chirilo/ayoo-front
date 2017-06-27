@@ -1,4 +1,4 @@
-<ion-tabs tabsLayout="{{ platform.is('ios') ? 'icon-top' : 'icon-left' }}" color="grey-tabs" [ngClass]="{'no-badge': !noticeService.noCheckNotices.length }">
+<ion-tabs class="gradient1" tabsLayout="{{ platform.is('ios') ? 'icon-top' : 'icon-left' }}" color="grey-tabs" [ngClass]="{'no-badge': !noticeService.noCheckNotices.length }">
   <ion-tab tabUrlPath="park" [root]="timelineTabRoot" tabTitle="Feeds" tabIcon="flower" ></ion-tab>
   <ion-tab tabUrlPath="topic" [root]="topicTabRoot" tabTitle="Topix" tabIcon="quote" ></ion-tab>
   <ion-tab tabUrlPath="me" [root]="userTabRoot" tabTitle="Profile" tabIcon="person" tabBadge="{{ noticeService.noCheckNotices.length }}" tabBadgeStyle="danger"></ion-tab>
